@@ -1,0 +1,40 @@
+Notes:
+
+mysql -u root -p 
+1q2w3e4r
+
+(TESTING)
+192.168.1.5/head_first/report.html
+http://192.168.1.5/phpmyadmin/
+tail -f /var/log/httpd/error_log
+
+Scripts TLD:
+vim /var/www/html/head_first/report.html
+vim /var/www/html/head_first/report.php
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+
+Database Schema:
+
+create table aliens_abduction(
+first_name varchar(30),
+last_name varchar(30),
+when_it_happened varchar(30),
+how_long varchar(30),
+how_many varchar(30),
+alien_description varchar(100),
+what_they_did varchar(100),
+fang_spotted varchar(10), 
+other varchar(100),
+email varchar(50)
+);
+
+Temp Query
+
+"insert into aliens_abduction(first_name,last_name, ".
+"when_it_happened,how_long,how_many,alien_description,what_they_did,fang_spotted, other,email) ".
+"values ('madaadanav', ".
+"'garekar','06/10','1 hour','50','big green','played with me','yes','i saw your dog','maga0404@colorado.edu') ".
+"";
+
+
