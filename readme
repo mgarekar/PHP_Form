@@ -1,0 +1,15 @@
+Simple PHP form on a WebServer, which stores data in a Database
+
+Getting Started:
+1) Install MYSQL, PHP, and Apache
+2) Initialize MYSQL with user root, and password 1q2w3e4r
+3) Allow remote login for MYSQL
+4) Flush IPTables
+5) Set up PhpMyAdmin, and allow access from your IP
+
+
+Structure:
+
+report.html = This is the html web form, which calls the report.php backend form
+report.php = This is a php script that takes input data, and stores it in a database (aliendatabase) 
+index.html = This page runs queries on the database. 
