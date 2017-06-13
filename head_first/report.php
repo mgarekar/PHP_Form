@@ -38,10 +38,10 @@
     or die('Error in connecting to database');
     
     #EXECUTE A QUERY
-  echo $insert_query;
-  echo '<br />';
-  echo $temp_query;
-  echo '<br />';
+  #echo $insert_query;
+  #echo '<br />';
+  #echo $temp_query;
+  #echo '<br />';
   mysqli_query($dbc,$insert_query)
     or die("Error in carrying out the query");
 
